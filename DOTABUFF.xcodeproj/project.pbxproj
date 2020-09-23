@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580700AE251A3AF3002E2452 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580700AD251A3AF3002E2452 /* Model.swift */; };
+		580700B0251A3EDA002E2452 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580700AF251A3EDA002E2452 /* APIServices.swift */; };
+		580700B2251A3FA5002E2452 /* MatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580700B1251A3FA5002E2452 /* MatchViewModel.swift */; };
+		585F6824251A1EF900989E86 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585F6823251A1EF900989E86 /* DetailController.swift */; };
+		586667402519092B000C53A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5866673F2519092B000C53A3 /* AppDelegate.swift */; };
+		586667422519092B000C53A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586667412519092B000C53A3 /* SceneDelegate.swift */; };
+		586667442519092B000C53A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586667432519092B000C53A3 /* ViewController.swift */; };
+		586667472519092C000C53A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586667452519092C000C53A3 /* Main.storyboard */; };
+		5866674A2519092C000C53A3 /* DOTABUFF.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 586667482519092C000C53A3 /* DOTABUFF.xcdatamodeld */; };
+		5866674C25190940000C53A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5866674B25190940000C53A3 /* Assets.xcassets */; };
+		5866674F25190940000C53A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5866674D25190940000C53A3 /* LaunchScreen.storyboard */; };
+		5866675A25190942000C53A3 /* DOTABUFFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5866675925190942000C53A3 /* DOTABUFFTests.swift */; };
+		5866676525190942000C53A3 /* DOTABUFFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5866676425190942000C53A3 /* DOTABUFFUITests.swift */; };
+		586667732519263F000C53A3 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586667722519263E000C53A3 /* GameCell.swift */; };
+		58CAF7A9251B3F36005AEB99 /* TeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CAF7A8251B3F36005AEB99 /* TeamController.swift */; };
+		58CAF7AB251B46A8005AEB99 /* TeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CAF7AA251B46A8005AEB99 /* TeamViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5866675625190942000C53A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 586667342519092B000C53A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5866673B2519092B000C53A3;
+			remoteInfo = DOTABUFF;
+		};
+		5866676125190942000C53A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 586667342519092B000C53A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5866673B2519092B000C53A3;
+			remoteInfo = DOTABUFF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		580700AD251A3AF3002E2452 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		580700AF251A3EDA002E2452 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		580700B1251A3FA5002E2452 /* MatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewModel.swift; sourceTree = "<group>"; };
+		585F6823251A1EF900989E86 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		5866673C2519092B000C53A3 /* DOTABUFF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOTABUFF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5866673F2519092B000C53A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		586667412519092B000C53A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		586667432519092B000C53A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		586667462519092C000C53A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		586667492519092C000C53A3 /* DOTABUFF.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DOTABUFF.xcdatamodel; sourceTree = "<group>"; };
+		5866674B25190940000C53A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5866674E25190940000C53A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5866675025190940000C53A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5866675525190942000C53A3 /* DOTABUFFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOTABUFFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5866675925190942000C53A3 /* DOTABUFFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTABUFFTests.swift; sourceTree = "<group>"; };
+		5866675B25190942000C53A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5866676025190942000C53A3 /* DOTABUFFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOTABUFFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5866676425190942000C53A3 /* DOTABUFFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTABUFFUITests.swift; sourceTree = "<group>"; };
+		5866676625190943000C53A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586667722519263E000C53A3 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		58CAF7A8251B3F36005AEB99 /* TeamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamController.swift; sourceTree = "<group>"; };
+		58CAF7AA251B46A8005AEB99 /* TeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		586667392519092B000C53A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5866675225190942000C53A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5866675D25190942000C53A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586667332519092B000C53A3 = {
+			isa = PBXGroup;
+			children = (
+				5866673E2519092B000C53A3 /* DOTABUFF */,
+				5866675825190942000C53A3 /* DOTABUFFTests */,
+				5866676325190942000C53A3 /* DOTABUFFUITests */,
+				5866673D2519092B000C53A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5866673D2519092B000C53A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5866673C2519092B000C53A3 /* DOTABUFF.app */,
+				5866675525190942000C53A3 /* DOTABUFFTests.xctest */,
+				5866676025190942000C53A3 /* DOTABUFFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5866673E2519092B000C53A3 /* DOTABUFF */ = {
+			isa = PBXGroup;
+			children = (
+				58CAF7B0251B5664005AEB99 /* ViewModel */,
+				58CAF7AF251B564F005AEB99 /* Model */,
+				58CAF7AE251B5649005AEB99 /* Services */,
+				58CAF7AD251B5641005AEB99 /* Cells */,
+				58CAF7AC251B5638005AEB99 /* Controllers */,
+				5866673F2519092B000C53A3 /* AppDelegate.swift */,
+				586667412519092B000C53A3 /* SceneDelegate.swift */,
+				586667452519092C000C53A3 /* Main.storyboard */,
+				5866674B25190940000C53A3 /* Assets.xcassets */,
+				5866674D25190940000C53A3 /* LaunchScreen.storyboard */,
+				5866675025190940000C53A3 /* Info.plist */,
+				586667482519092C000C53A3 /* DOTABUFF.xcdatamodeld */,
+			);
+			path = DOTABUFF;
+			sourceTree = "<group>";
+		};
+		5866675825190942000C53A3 /* DOTABUFFTests */ = {
+			isa = PBXGroup;
+			children = (
+				5866675925190942000C53A3 /* DOTABUFFTests.swift */,
+				5866675B25190942000C53A3 /* Info.plist */,
+			);
+			path = DOTABUFFTests;
+			sourceTree = "<group>";
+		};
+		5866676325190942000C53A3 /* DOTABUFFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5866676425190942000C53A3 /* DOTABUFFUITests.swift */,
+				5866676625190943000C53A3 /* Info.plist */,
+			);
+			path = DOTABUFFUITests;
+			sourceTree = "<group>";
+		};
+		58CAF7AC251B5638005AEB99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				586667432519092B000C53A3 /* ViewController.swift */,
+				585F6823251A1EF900989E86 /* DetailController.swift */,
+				58CAF7A8251B3F36005AEB99 /* TeamController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		58CAF7AD251B5641005AEB99 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				586667722519263E000C53A3 /* GameCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		58CAF7AE251B5649005AEB99 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				580700AF251A3EDA002E2452 /* APIServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		58CAF7AF251B564F005AEB99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				580700AD251A3AF3002E2452 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58CAF7B0251B5664005AEB99 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				58CAF7AA251B46A8005AEB99 /* TeamViewModel.swift */,
+				580700B1251A3FA5002E2452 /* MatchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5866673B2519092B000C53A3 /* DOTABUFF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5866676925190943000C53A3 /* Build configuration list for PBXNativeTarget "DOTABUFF" */;
+			buildPhases = (
+				586667382519092B000C53A3 /* Sources */,
+				586667392519092B000C53A3 /* Frameworks */,
+				5866673A2519092B000C53A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DOTABUFF;
+			productName = DOTABUFF;
+			productReference = 5866673C2519092B000C53A3 /* DOTABUFF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5866675425190942000C53A3 /* DOTABUFFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5866676C25190943000C53A3 /* Build configuration list for PBXNativeTarget "DOTABUFFTests" */;
+			buildPhases = (
+				5866675125190942000C53A3 /* Sources */,
+				5866675225190942000C53A3 /* Frameworks */,
+				5866675325190942000C53A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5866675725190942000C53A3 /* PBXTargetDependency */,
+			);
+			name = DOTABUFFTests;
+			productName = DOTABUFFTests;
+			productReference = 5866675525190942000C53A3 /* DOTABUFFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5866675F25190942000C53A3 /* DOTABUFFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5866676F25190943000C53A3 /* Build configuration list for PBXNativeTarget "DOTABUFFUITests" */;
+			buildPhases = (
+				5866675C25190942000C53A3 /* Sources */,
+				5866675D25190942000C53A3 /* Frameworks */,
+				5866675E25190942000C53A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5866676225190942000C53A3 /* PBXTargetDependency */,
+			);
+			name = DOTABUFFUITests;
+			productName = DOTABUFFUITests;
+			productReference = 5866676025190942000C53A3 /* DOTABUFFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		586667342519092B000C53A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Sandro Beruashvili";
+				TargetAttributes = {
+					5866673B2519092B000C53A3 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					5866675425190942000C53A3 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 5866673B2519092B000C53A3;
+					};
+					5866675F25190942000C53A3 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 5866673B2519092B000C53A3;
+					};
+				};
+			};
+			buildConfigurationList = 586667372519092B000C53A3 /* Build configuration list for PBXProject "DOTABUFF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 586667332519092B000C53A3;
+			productRefGroup = 5866673D2519092B000C53A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5866673B2519092B000C53A3 /* DOTABUFF */,
+				5866675425190942000C53A3 /* DOTABUFFTests */,
+				5866675F25190942000C53A3 /* DOTABUFFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5866673A2519092B000C53A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5866674F25190940000C53A3 /* LaunchScreen.storyboard in Resources */,
+				5866674C25190940000C53A3 /* Assets.xcassets in Resources */,
+				586667472519092C000C53A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5866675325190942000C53A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5866675E25190942000C53A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		586667382519092B000C53A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580700AE251A3AF3002E2452 /* Model.swift in Sources */,
+				580700B2251A3FA5002E2452 /* MatchViewModel.swift in Sources */,
+				586667732519263F000C53A3 /* GameCell.swift in Sources */,
+				58CAF7AB251B46A8005AEB99 /* TeamViewModel.swift in Sources */,
+				580700B0251A3EDA002E2452 /* APIServices.swift in Sources */,
+				5866674A2519092C000C53A3 /* DOTABUFF.xcdatamodeld in Sources */,
+				586667442519092B000C53A3 /* ViewController.swift in Sources */,
+				58CAF7A9251B3F36005AEB99 /* TeamController.swift in Sources */,
+				586667402519092B000C53A3 /* AppDelegate.swift in Sources */,
+				585F6824251A1EF900989E86 /* DetailController.swift in Sources */,
+				586667422519092B000C53A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5866675125190942000C53A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5866675A25190942000C53A3 /* DOTABUFFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5866675C25190942000C53A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5866676525190942000C53A3 /* DOTABUFFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5866675725190942000C53A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5866673B2519092B000C53A3 /* DOTABUFF */;
+			targetProxy = 5866675625190942000C53A3 /* PBXContainerItemProxy */;
+		};
+		5866676225190942000C53A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5866673B2519092B000C53A3 /* DOTABUFF */;
+			targetProxy = 5866676125190942000C53A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		586667452519092C000C53A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586667462519092C000C53A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5866674D25190940000C53A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5866674E25190940000C53A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5866676725190943000C53A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5866676825190943000C53A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5866676A25190943000C53A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DOTABUFF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AB.DOTABUFF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5866676B25190943000C53A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DOTABUFF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AB.DOTABUFF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5866676D25190943000C53A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DOTABUFFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AB.DOTABUFFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DOTABUFF.app/DOTABUFF";
+			};
+			name = Debug;
+		};
+		5866676E25190943000C53A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DOTABUFFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AB.DOTABUFFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DOTABUFF.app/DOTABUFF";
+			};
+			name = Release;
+		};
+		5866677025190943000C53A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DOTABUFFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AB.DOTABUFFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DOTABUFF;
+			};
+			name = Debug;
+		};
+		5866677125190943000C53A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DOTABUFFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AB.DOTABUFFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DOTABUFF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		586667372519092B000C53A3 /* Build configuration list for PBXProject "DOTABUFF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5866676725190943000C53A3 /* Debug */,
+				5866676825190943000C53A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5866676925190943000C53A3 /* Build configuration list for PBXNativeTarget "DOTABUFF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5866676A25190943000C53A3 /* Debug */,
+				5866676B25190943000C53A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5866676C25190943000C53A3 /* Build configuration list for PBXNativeTarget "DOTABUFFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5866676D25190943000C53A3 /* Debug */,
+				5866676E25190943000C53A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5866676F25190943000C53A3 /* Build configuration list for PBXNativeTarget "DOTABUFFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5866677025190943000C53A3 /* Debug */,
+				5866677125190943000C53A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		586667482519092C000C53A3 /* DOTABUFF.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				586667492519092C000C53A3 /* DOTABUFF.xcdatamodel */,
+			);
+			currentVersion = 586667492519092C000C53A3 /* DOTABUFF.xcdatamodel */;
+			path = DOTABUFF.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 586667342519092B000C53A3 /* Project object */;
+}
